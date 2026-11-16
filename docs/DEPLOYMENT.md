@@ -1,6 +1,6 @@
 # Deployment preparation
 
-Source target: https://github.com/SamirGedeon/stockroom
+Public source repository: https://github.com/SamirGedeon/stockroom
 
 Compose is for local development. Public hosting needs a Rails-capable host, PostgreSQL and an HTTPS reverse proxy. Build React with `npm ci && npm run build`, serve frontend/dist with SPA fallback for /inventory/*, /activity and /suppliers, and route /api/* to Rails. Do not expose Vite as production hosting.
 
