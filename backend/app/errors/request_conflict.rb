@@ -1,0 +1,1 @@
+class RequestConflict < StandardError; end
